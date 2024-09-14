@@ -9,8 +9,8 @@ public class Evaluasi1 {
         System.out.println("");
         System.out.printf("Umur: %d",18);
         System.out.println();
-    }
-}
+    
+
     //deklarasi hnya menambahkan variabel tidak dengan isinya
     //inisialisasi proses memberi isi pada variabel
     
@@ -27,7 +27,7 @@ final String nama = "Maya";
         
         byte maksimal = -128;
         byte minimal = 127;
-            System.out.println(128);
-            System.out.println(127+1);            
+            System.out.println(maksimal);
+            System.out.println(minimal+1);            
     }        
 }

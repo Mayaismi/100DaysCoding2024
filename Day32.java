@@ -1,7 +1,6 @@
 public class Day32 {
 public static void main(String[] args) {
-  
-//Bilangan bulat
+    
 int a = 10;
 String b = Integer.toString(a);
 System.out.println(b);
@@ -18,7 +17,6 @@ long g = 40;
 String h = Long.toString(g);
 System.out.println(h);
 
-//Bilangan desimal
 float i = 50;
 String j = String.valueOf(i);
 System.out.println(j);
@@ -27,13 +25,12 @@ double k = 60;
 String l = String.valueOf(k);
 System.out.println(j);
 
-//Charakter
 char m = 'M';
-String n = m + "";
+String n = "char: " + m;
 System.out.println(n);
 
 boolean o = true;
-String p = o + "";
+String p = "boolean: " + o;
 System.out.println(p);
 
     }

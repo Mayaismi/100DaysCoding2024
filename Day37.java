@@ -11,7 +11,7 @@ public class Day37 {
         
         //pengurangan
         M -=5;
-        System.out.println("Hasil kali: " + M);
+        System.out.println("Hasil kurang: " + M);
         
         
         

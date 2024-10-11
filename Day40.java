@@ -1,14 +1,13 @@
-public class day40 {
-    public static void main(String[]args){
-    int a = 27;
-    int b = 30;
+public class Day40 {
+    public static void main(String[] args) {
+        //operator prbandingan
+        int a = 14;
+        int b = 10;
+        boolean A = a>b;
+        boolean B = a<b;
         
-//        percabangan 
-        
-        if (a < b){
-            System.out.print("nilai a lebih kecil dari nilai b");
-        }else if ( a > b){
-            System.out.println("nilai a lebih besar dari nilai b");
-        }
+            System.out.println("a lebih besar dari b: " + A);
+            System.out.println("b lebih kecil dari b: " + B);
     }
+    
 }

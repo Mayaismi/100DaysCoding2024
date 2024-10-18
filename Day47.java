@@ -3,11 +3,12 @@ public class Day47 {
         //Percabangan: if
         int a = 50;
         int b = 60;
-        boolean c = a<b;
+        
         
         if (a<b){
+            System.out.println("Maya");
         }
-        System.out.println("Maya");
+        
     }
     
 }

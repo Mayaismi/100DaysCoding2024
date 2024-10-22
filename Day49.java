@@ -8,15 +8,14 @@ public class Day49 {
         System.out.println("Masukkan angka");
         int a = maya.nextInt();
         
-        if (a==50||a>=10){
+        if (a==50){
             System.out.println("Y");
         }
-        else if (a<=70&&a<=10){
+        else if (a<13){
             System.out.println("G");
-    }
-        else{
-            System.out.println("Oh");
-        }
+      }
+  
+        
     }
     
 }

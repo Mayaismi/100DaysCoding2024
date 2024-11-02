@@ -19,19 +19,8 @@ public class Day62 {
     
         System.out.println(a); 
         
-        int batas = 0;
-        boolean maya = false;
-        System.out.println("masukkan angka maksimun");
-        int Max = sc.nextInt();
-        while (!maya){
-        System.out.println("masukkan angka Berikutnya");
-        int angka1 = sc.nextInt();
-        batas+=angka1;
-        if(batas>Max){
-            break;
-        }
-        }      
-        System.out.println(batas);
+        
+    }
     }
     
-}
+

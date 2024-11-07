@@ -1,5 +1,5 @@
 public class Day67 {
-     public static void cetakpesan() {
+     public void cetakpesan() {
         //Method Void
          System.out.println("Ini adalah methode void");
     }

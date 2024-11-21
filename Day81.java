@@ -3,7 +3,7 @@ public class Day81 {
        String a = "150";  
         int b = 0;
         for (int i = 0; i < 1; i++) {
-            b = Integer.parseInt(a);
+            b = Integer.valueOf(a);
         }
         System.out.println("Angka yang dimasukkan adalah: " + b); 
     }
